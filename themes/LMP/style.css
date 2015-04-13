@@ -1,0 +1,349 @@
+body {
+	min-height: 99%;
+	margin:0px 0px 0px 0px;
+	background-color: #f3f3f3;
+}
+.section {
+	overflow: hidden;
+	width: 600px;
+	float: left;
+	}
+.wideSection{
+	overflow: hidden;
+	width: 960px;
+	float: left;
+}
+main {
+	width: 960px;
+	margin: 0 auto;
+	/*background-color:#fff;*/
+}
+main h1, main h1 a:link {
+	color: #005684;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
+}
+main h1 a:hover, footer p {
+	color:#4796b3;
+	text-decoration: none;
+}
+h3{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+#headerLogo{
+	text-align: center;
+}
+#mainImage{
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	max-width: 1000px;
+	background-image: url("/wp-content/themes/LMP/lib/img/roller.png");
+	clip:rect(0px 50px 50px 0px);
+	background-position:center;
+	background-size:;
+}
+
+.homePageBox img:hover {
+	opacity: 0.9;
+	filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+/* LINKS */
+
+a:link, a:visited {
+	text-decoration: none;
+	color:#005684;
+
+	}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #339966;
+	}
+
+
+/* HEADER */
+
+header {
+	background:#005684;
+	padding: 33px;
+	}
+	header h1, header h2, header h1 a,header h1 a:visited  {
+		margin: 0;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-align: center;
+		color: #ffcc00;
+		}
+		header h1 a:link, header h1 a:visited {
+			text-decoration: none;
+
+		}
+		header h1 a:hover, header h1 a:active {
+			text-decoration: none;
+		}
+header h1 {
+	font-size: 1.7em;
+}
+header h2 {
+	font-size:1em;
+	font-weight: normal;
+
+}
+.notHomePageMainImage{
+	display:none;
+}
+/* POSTS */
+
+.section article[id*=post-] {
+	padding: 10px 0;
+	}
+.section article > header p, 
+.section article > footer p {
+	font-style: italic;
+	}
+.section article + nav {
+	font-weight: bold;
+	}
+.section section > h1 {
+	padding-top: 10px;
+	}
+
+main header, main footer, main footer p{
+	background:#fff;
+	color:#005684;
+}
+main nav {
+	background-color: #fff;
+}
+
+main {
+	display:block;
+/*	background-color: #fff;*/
+	overflow:hidden;
+	padding:10px;
+}
+/* NAVIGATION */
+
+nav {
+	clear: both;
+	}
+nav {
+	background: -webkit-linear-gradient(top, #005684 , #006699); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top, #005684, #006699); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top, #005684, #006699); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, #005684 , #006699); /* Standard syntax (must be last) */
+
+	padding: 10px 0;
+	}
+	nav ul {
+		text-align: center;
+		margin: 0;
+		padding-right:50px;
+		}
+		nav ul li {
+			margin-right: 20px;
+			display: inline;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-decoration: none;
+		}
+		nav ul li a:link, nav ul li a:visited {
+			color: #ffcc00;
+			text-decoration: none;
+		}
+		nav ul li a:link:hover,nav ul li a:visited:hover {
+			color:#4796b3;
+			text-decoration: none;
+		}
+
+/* COMMENTS */
+
+.comments-list {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+	}
+	.children { 
+		list-style: none; 
+		}
+	.comment-body { 
+		padding: 24px 24px 24px 0; 
+		}
+		.avatar { 
+			float: left; 
+			width: 50px; 
+			height: auto; 
+			margin: 0 24px 12px 0; 
+			}
+		.comment-meta { 
+			font-size: 12px; 
+			}
+
+.comment-respond label {
+	display: block;
+	}
+.comment-respond input,
+.comment-respond textarea {
+	display: block;
+	margin: 2px 0 12px 0;
+	}
+
+
+/* SIDEBAR */
+
+aside {
+	margin-top: 30px;
+	overflow: hidden;
+	width: 300px;
+	float: right;
+	}
+.widget{
+	border:1px solid #ccc;
+	margin-bottom:10px;
+	padding:15px;
+	background-color:#f7f7f7;
+}
+.widget h3, .widget h2, .widget li{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	list-style-type: square;
+}
+.widget li a:link{
+	text-decoration:none;
+}
+.widget h3, .widget h2{
+	color:#1b607f;
+}
+.widget h2{
+	font-size: 0.9em;
+}
+.widget h3{
+	font-size: 0.8em;
+}
+.widget li{
+	font-size: 0.8em;
+}
+.widget p{
+	0.8em;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 10px;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	background:#005684;
+	color:#ffffff;
+	text-decoration: none;
+	}
+footer p a:link, footer p a:visited {
+	color:#ffcc00;
+}
+
+/* SEARCH */
+
+label[for=s] {
+	display: none;
+	}
+
+
+/* WP Defaults */
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
+
+
+/* OTHER */
+
+p, .wideSection h2, li, h2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #292929;
+}
+#homePageBoxes{
+	text-align: left;
+	clear: both;
+	height:600px;
+	margin:10px 0px 10px 0px;
+	display:block;
+	width:960px;
+}
+.homePageBox{
+	position:absolute;
+	height:450px;
+	width:280px;
+	border:1px solid #ccc;
+	margin-top:0px;
+	padding:10px;
+}
+
+#homePageBox2{
+	margin-left:330px;
+}
+#homePageBox3{
+	margin-left:660px;
+}
+.homePageBox h1, .homePageBox h1{
+	text-align: center;
+}
+
+.websiteSample{
+	width:800px;
+	height:180px;
+	clear:both;
+	margin:0px 0px 10px 80px;
+	padding:20px;
+	border:1px solid #ccc;
+}
+.websiteSampleDescription {
+	position:absolute;
+	margin-left:200px;
+	margin-top:0px;
+	width:545px
+}
+.websiteSampleDescription p, .websiteSampleDescription h3{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+.websiteThumbnail {
+	position:absolute;
+	width:155px;
+	margin-top:0px;
+}
+.websiteThumbnail img{
+	box-shadow: -2px 2px 5px 5px #e9e9e9;
+}
+button, input[type="submit"]{
+	border:1px solid #ccc;
+	border-radius: 0px;
+	background-color: #1b607f;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+	color: #ffcc00;
+}
+button:hover {
+	cursor: pointer;
+	background-color:#4796b3;
+}
+.homepageForm{
+	text-align: center;
+}
+figure{
+	margin:0px 0px 10px 10px;
+	float:right;
+
+}
+figcaption {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+}
