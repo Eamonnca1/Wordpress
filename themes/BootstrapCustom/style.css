@@ -51,7 +51,7 @@ header {
 
 	background-image: url("/wp-content/uploads/2014/11/wide-writer-e1408485409693.jpg");
 	padding: 33px;
-	color: #ccc;
+	color: #fff;
 	}
 	header h1, header h2 {
 		margin: 0;
@@ -68,12 +68,18 @@ header {
 			color: #ddd;
 		}
 header h1 {
-	font-size: 1.9em;
+	font-size: 2.3em;
 }
 header h2 {
-	font-size:1em;
+	font-size:1.5em;
 	font-weight: normal;
 	color:#fff;
+}
+#home-page-header{
+    height:350px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("/wp-content/uploads/2015/04/writer11.png");
 }
 
 
@@ -264,7 +270,7 @@ p, .wideSection h2, li, h2{
 
 .homePageBox{
 	min-height:450px;
-    border:3px solid #95c58e;
+    border:3px solid #e7e7e7;
     height:100%;
     padding:1em 1em 1em 1em;
     margin:1em;

@@ -18,6 +18,10 @@
 		<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
 		<script type="text/javascript">
 		var $ =jQuery.noConflict();
 		</script>
@@ -47,13 +51,25 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<header class="page-header">
-            <div class="container">
-			    <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-			    <h2><?php bloginfo('description'); ?></h2>
-		    </div>
-        </header>
-		
+        <?php
+            if (is_front_page()) {
+        ?>
+            <header id="home-page-header">
+                <div class="container">
+                    <h1><?php bloginfo('name'); ?></h1>
+                    <h2><?php bloginfo('description'); ?></h2>
+                </div>
+            </header>
+
+        <?php } else { ?>
+            <header class="page-header">
+                <div class="container">
+                    <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+                    <h2><?php bloginfo('description'); ?></h2>
+                </div>
+            </header>
+
+		<?php } ?>
             <nav class="navbar navbar-default" id="main-nav">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->

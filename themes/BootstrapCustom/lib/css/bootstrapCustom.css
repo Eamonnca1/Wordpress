@@ -76,6 +76,10 @@
         padding-left:0;
         padding-right:0;
     }
+    header h1 {
+        padding-left:0;
+        padding-right:0;
+    }
     .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a {
         padding-left: 30px;
         padding-right: 30px;
@@ -83,6 +87,18 @@
     article {
         max-width:95% !important;
         margin:0 auto;
+    }
+    #home-page-header {
+        height:110px !important;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 10% 0%;
+    }
+    .homePageBox {
+        padding-left:0;
+        padding-right:0;
+        margin-left:0;
+        margin-right:0;
     }
 }
 
