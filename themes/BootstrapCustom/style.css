@@ -313,6 +313,9 @@ p, .wideSection h2, li, h2{
     background-color: #595959;
     color:#fff;
 }
+.websiteSample:nth-child(odd) a:link, .websiteSample:nth-child(odd) a:visited {
+    color: #d7f1cf;
+}
 .websiteSample:nth-child(odd)>.websiteSampleDescription>p{
     color:#fff;
 }
