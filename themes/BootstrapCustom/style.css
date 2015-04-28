@@ -1,7 +1,7 @@
 body {
 	min-height: 99%;
 	margin:0px 0px 0px 0px;
-    background-color:#d9d9d9;
+    background-color:#f6f6f6;
 }
 .section {
 	overflow: hidden;
@@ -17,7 +17,7 @@ body {
 main {
 /*	width: 960px;
 /*	margin: 0 auto;*/
-    background-color:#d9d9d9;
+    background-color:#f6f6f6;
     align-content: center;
     position:relative;
 }
@@ -40,7 +40,7 @@ a:link, a:visited {
 
 	}
 a:hover, a:active {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #95c58e;
 	}
 
@@ -227,6 +227,7 @@ footer a{
     display:block;
     color:#d7f1cf;
     text-align:left;
+    padding:0.3em;
 }
 #site-map>a:hover, footer a:hover{
     color:#fff !important;
@@ -279,7 +280,7 @@ p, .wideSection h2, li, h2{
 	color:#387038;
 }
 .homePageBox h1 a:hover {
-	color:#4796b3;
+	color:#95c58e;
 }
 /*.websiteSample{
 	width:800px;
