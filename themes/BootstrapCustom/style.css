@@ -239,7 +239,12 @@ footer a{
     color:#fff !important;
     text-decoration:none;
 }
-
+#socialBox {
+    text-align:left;
+}
+#socialBox a {
+    margin-bottom:5px;
+}
 /* SEARCH */
 
 label[for=s] {

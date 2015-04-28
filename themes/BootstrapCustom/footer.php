@@ -12,11 +12,13 @@
         				Wordpress theme developed by Eamonn Gormley &copy; <?php echo date('Y'); ?>
             	</p>
 		    </div>
-		    <div class="col-md-3">
+		    <div class="col-md-3" id="socialBox">
                 <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/eamonngormley/">
                     <i class="fa fa-linkedin"></i>
-                  </a> <a href="http://www.linkedin.com/in/eamonngormley/">Visit me at LinkedIn</a>
-
+                  </a> <a href="http://www.linkedin.com/in/eamonngormley/">Visit me at LinkedIn</a><br />
+                  <a class="btn btn-social-icon btn-github" href="https://github.com/Eamonnca1">
+                    <i class="fa fa-github"></i>
+                  </a> <a href="https://github.com/Eamonnca1">Visit me at GitHub</a>
 			</div>
 
 
