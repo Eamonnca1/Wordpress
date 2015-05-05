@@ -42,6 +42,14 @@
 		<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/BootstrapCustom/lib/css/jquery.fancybox-thumbs.css"></link>
 		<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/BootstrapCustom/lib/css/jquery.fancybox.css"></link>
 
+        <script>
+            $(function() {
+                $( "#accordion" ).accordion({
+                    heightStyle: "content"
+                });
+            });
+        </script>
+
   		<link rel="stylesheet" href="/wp-content/themes/BootstrapCustom/lib/css/bjqs.css">
         <link rel="stylesheet" href="/wp-content/themes/BootstrapCustom/lib/css/bootstrap-social.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -103,4 +111,4 @@
                 </div><!-- /.container-fluid -->
             </nav>
 
-		<main>
+		<main >

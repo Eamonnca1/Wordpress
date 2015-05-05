@@ -189,3 +189,32 @@ header {
 .col-md-4 h1 {
     text-align:center;
 }
+
+/* Accordion */
+    .ui-state-active{
+        border:1px solid #95c58e !important;
+        background-color:##95C58E !important;
+        background-image:none !important;
+        border-radius:0px;
+    }
+    .ui-state-hover{
+        border:1px solid #95c58e !important;
+        background-image:none !important;
+    }
+
+    .ui-corner-all{
+        border:1px solid #95c58e;
+        border-radius:0;
+    }
+    .ui-state-default{
+        background-image:none !important;
+        background-color:#95c58e;
+    }
+    .ui-widget-content{
+        border:1px solid #95c58e;
+        border-radius:0px;
+    }
+
+.ui-state-active, .ui-state-default{
+    color:#fff;
+}
